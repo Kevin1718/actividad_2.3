@@ -1,0 +1,23 @@
+$def with(result)
+<!DOCTYPE html>
+<html lang="es">
+
+<body>
+    <h1>REGRESIÓN LINEAL </h1>
+    <h1>Kevin CH </h1>
+    <br>
+    <form  method="post"  class="row g-3">
+        <div class="col-auto">
+            <h2>X:</h2>
+        </div>
+        <div class="col-auto">
+            <input type="number" name="x" id="x">        
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">PREDICCIÓN</button>
+        </div>  
+    </form>
+    $if result!= None:
+        <h1 class="display-6">$result</h1>
+</body>
+</html>
